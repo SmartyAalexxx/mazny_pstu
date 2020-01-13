@@ -19,7 +19,6 @@
     font-style: normal;
 }
 
-
 body {
     margin: 0;
     padding: 10px 10px;
@@ -31,6 +30,7 @@ body {
     /* background-image: linear-gradient(to top, rgba(201, 227, 88, 0.692) 0%, rgba(164, 235, 70, 0.7) 50%, rgba(135, 226, 93, 0.7) 100%); */
     background-image: url(../img/escheresque_@2X.png);
     min-height: 100%;
+    margin-bottom: 10px;
 }
 
 header {
@@ -190,16 +190,53 @@ ul{
     display: block;
 }
 
-.list__items{
-    font-size: 20px;}
-.list__item {
-    font-size: 18px;}
+.img__block{
+    max-width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.abst__img{
+    width: 100%;
+
+}
 .img__text{
     width: 100%;
     display: inline-block;
     text-align: center;
 }
+
+
+.list__items{
+    font-size: 20px;}
+.list__item {
+    font-size: 18px;}
 .title_h5{
     font-size: 22px;
     font-weight: 700;
+}
+
+.link__li{
+    padding: 8px;
+    list-style: none;
+}
+
+.link__li a, .abst__link{
+    text-decoration: none;
+    color: #686f95
+}
+
+.link__li a:hover,
+.link__li a:active,
+.link__li a:focus{
+    color: #111;
+    transform: scale(1.01);
+    transition: all .1s ease;
+}
+
+.abst__link:hover,
+.abst__link:active,
+.abst__link:focus{
+    color: #111;
+    transform: scale(1.01);
+    transition: all .1s ease;
 }
